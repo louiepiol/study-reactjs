@@ -1,0 +1,37 @@
+{
+  "name": "study-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louiepiol/study-reactjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louiepiol/study-reactjs/issues"
+  },
+  "homepage": "https://github.com/louiepiol/study-reactjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
